@@ -218,6 +218,86 @@ color: #000000;
 
 }
 
+/* SECTION 3 */
+
+#section3{
+    max-width: 1140px;
+    margin: auto;
+}
+.sec31{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sec31  h1{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.sec31 a{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #FBBBCD;
+    padding: 10px ;
+
+}
+.sec32{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.sec32 h2{
+    font-family: "Gloria Hallelujah", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.sec32 img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec32 p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+/* SECTION 4 */
+
+#section4{
+     max-width: 1140px;
+    margin: auto;
+
+}
+.sec41, .sec42{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.sec41 div{
+    display: flex;
+    justify-content: space-between;
+}
+.sec42 div{
+     display: flex;
+    justify-content: space-between;
+
+}
 
 /* FOOTER  */
 .footer{
