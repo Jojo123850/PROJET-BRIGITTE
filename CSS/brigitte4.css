@@ -60,101 +60,65 @@ header ul li a:hover{
 }
 
 /* SECTION 1 */
-#section1{
+main{
     max-width: 1903px;
     margin: auto;
-    background-color: #FBBBCD;
 }
-#section1 div{
+section{
     max-width: 1440px;
     margin: auto;
-    height: 400px;
 }
-
-
-h1{ 
-    font-family: "Gloria Hallelujah", sans-serif;
+h1{
+    font-family: "Gloria Hallelujah",sans-serif;
     font-weight: 400;
     font-size: 45px;
     line-height: 45px;
     letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+    margin-bottom: 40px;
+
+}
+section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.image00{
+    width: 70%;
+    height: 70%;
+}
+
+
+
+h2{
+    font-family: "Gloria Hallelujah",sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
     color: #000000;
-   padding: 160px;
+    margin-top: 10px;
 
 }
-#blog{
-    max-width: 1903px;
-    margin: auto;
-}
-#blocsection{
-    max-width: 1420px;
-    margin: auto;
-}
-#blog h1{
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    vertical-align: middle;
-    color: #7A7A7A;
-    padding-top: 20px;
-    padding-bottom: 40px;
-
-}
-.blog1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    margin-top: 40px;
-
-}
-.blog1 img{
-    width: 100%;
-    height: 80%;
-}
-.p1{
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    vertical-align: middle;
-    color: rgba(156, 156, 156, 1);
-    margin-bottom:10px;
-}
-h2{
+p{
     font-family: "Noto Sans",sans-serif;
     font-weight: 400;
-    font-style: Display Regular;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    color: rgba(51, 51, 51, 1);
-
-}
-.p2{
-    font-family:" Noto Sans",sans-serif;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    color: rgba(156, 156, 156, 1);
-    margin-bottom: 10px;
-
-}
-.btn{
-    font-family: "Noto Sans",sans-serif;
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+    text-align: center;
     vertical-align: middle;
-    color: rgba(96, 91, 229, 1);
-    margin-bottom: 90px;
 
+}
+.art2{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.art2 img{
+    width:240px;
 }
 
 /* FOOTER  */
@@ -163,8 +127,8 @@ h2{
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-
-    margin-top: 80px;
+    margin-top: 40px;
+    margin-top: 50px;
 }
 footer ul li a{
     color: #000000;
@@ -183,12 +147,9 @@ footer ul li a{
     vertical-align: middle;
     color: #000000;
 }
-
-
 /* RESPONSIVE TABLETTE */
-
 @media screen and (max-width:1024px) {
-     header{
+    header{
         justify-content: space-between;
     }
     .header nav{
@@ -199,18 +160,18 @@ footer ul li a{
     }
     .icons{
         display: none;
-    }  
+    }
+    section div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
     footer nav{
         display: none;
-        
     }
-    .logo{
-        display: none;
-    }
-
-    
 }
 
+/* RESPONSIVE MOBILE */
 @media screen and (max-width:767px){
 
     
@@ -227,15 +188,12 @@ footer ul li a{
         display: none;
         
 }
-.blog1{
-    display: grid;
-    grid-template-columns: 1fr;
+section div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
+
 footer nav{
     display: none;
-}
-.logo{
-    display: none;
-    
-}
 }

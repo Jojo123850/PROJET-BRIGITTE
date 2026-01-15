@@ -85,6 +85,18 @@ header ul li a:hover{
     height: 1px;
     align-self: center;
 }
+.bienvenue h1{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-style: Display Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #CC3900;
+
+}
 #section1 article h1{
     font-family:"Gloria Hallelujah",sans-serif;
     font-weight: 400;
