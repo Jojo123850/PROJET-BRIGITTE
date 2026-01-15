@@ -148,7 +148,6 @@ padding-top: 20%;
 #section2 .divsec21{
     background-color: #FBBBCD;
     padding: 100px;
-   height: 800px;
     align-self: center;
    
 
@@ -450,8 +449,7 @@ list-style: none;
      color: #000000;
 }
 .art5 .btn:hover{
-    color: #F7F7F7;
-    background-color: #CC3900;
+  color:#FFFFFF;
 }
 #section5 div{
     display: grid;
@@ -493,7 +491,7 @@ list-style: none;
     color: #000000;
     margin-bottom: 20px;
 }
-#section5 .btn{
+#section5 div .btn{
     font-family: "Noto Sans",sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -502,6 +500,10 @@ list-style: none;
     vertical-align: middle;
     color: #000000;
 
+}
+
+#section5 .btn:hover{
+    color: #CC3900;
 }
 
 
@@ -560,6 +562,11 @@ list-style: none;
      place-self: center;
      margin-bottom: 60px;
     
+}
+
+#section6 .btn:hover{
+    color: #000000;
+    background-color: #F7F7F7;
 }
 
 
@@ -639,7 +646,49 @@ footer ul li a{
 
 
 @media screen and (max-width:767px){
-    
 
+      header{
+        justify-content: space-between;
+    }
+    .header nav{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    .icons{
+        display: none;
+    }
+
+    #section2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+   .div1111{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+ .div1111{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .sec32{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .sec41{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .sec42{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   #section5 div{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
     
 }
