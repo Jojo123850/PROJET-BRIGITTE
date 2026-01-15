@@ -67,12 +67,13 @@ header ul li a:hover{
     background-repeat: no-repeat;
     max-width: 700px;
     margin: auto;
-    height: 426px;
      max-width: 1400px;
     margin: auto;
      margin-top: 40px;
     display: flex;
   padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 #section1 .contact{
@@ -129,16 +130,11 @@ width: 80%;
 .contact article i{
     color: #CC3900;
 }
-#section1 .formulaire{
-    
-
-}
 form{
-    display: grid;
-    width: 445px;
+    display: grid; 
 }
 .input1{
-    width: 445px;
+    width: 404px;
     border:1px solid;
     border-radius: 2px;
     border-color: #818A91;
@@ -147,7 +143,7 @@ form{
 
 }
 .input2{
-    width: 445px;
+    width: 404px;
     border:1px solid;
     border-radius: 2px;
     border-color: #818A91;
@@ -155,7 +151,7 @@ form{
     margin-bottom: 20px;
 }
 textarea{
-    width: 445px;
+   max-width: 445px;
     border-color: #818A91;
     margin-bottom: 20px;
 }
@@ -213,3 +209,35 @@ footer ul li a{
     vertical-align: middle;
     color: #000000;
 }
+
+
+/* RESPONSIVE TABLETTE */
+@media screen and (max-width:1024px) {
+  header{
+        justify-content: space-between;
+    }
+    .header nav{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    .icons{
+        display: none;
+    }  
+    #section1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #section1{
+        background-size: 70%;
+    }
+    form{
+        justify-content: space-evenly;
+    }
+    .formulaire a{
+        display: block;
+        width: fit-content;
+        justify-self: center;
+    }
+    }
