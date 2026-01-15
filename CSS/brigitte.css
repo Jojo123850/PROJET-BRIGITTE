@@ -40,6 +40,10 @@ header{
 header ul li a{
     color: #000000;
 }
+header ul li a:hover{
+    color: #CC3900;
+    
+}
 
 
 .icons ul{
@@ -111,6 +115,13 @@ header ul li a{
     color: #000000;
     font-size: 16px;
 }
+
+#section1 .btn:hover{
+    color: #F7F7F7;
+    background-color: #CC3900;
+
+}
+
 #section1{
     background-image: url(../IMG/BGsection1.png);
     background-size: 50%;
@@ -233,7 +244,6 @@ color: #000000;
 .sec31  h1{
     font-family: "Gloria Hallelujah", sans-serif;
     font-weight: 400;
-    font-style: Regular;
     font-size: 45px;
     line-height: 45px;
     letter-spacing: 0%;
@@ -249,6 +259,13 @@ color: #000000;
     padding: 10px ;
 
 }
+
+.sec31 a:hover{
+color: #F7F7F7;
+background-color: #CC3900;
+}
+
+
 .sec32{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -280,24 +297,275 @@ color: #000000;
 /* SECTION 4 */
 
 #section4{
-     max-width: 1140px;
+    background-color: #F7F7F7;
+    max-width:  1903px;
+    margin: auto;
+}
+
+#section4 #sectionAAA{
+     max-width: 1440px;
     margin: auto;
 
 }
-.sec41, .sec42{
+
+#section4 h1{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#section4 ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+#section4 li a{
+      color: #CC3900;
+      list-style: none;
+
+}
+
+#section4 a{
+    list-style: none;
+}
+
+#section4 p{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+     font-size: 14px;
+    line-height: 21px;
+    vertical-align: middle;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+ }
+
+ #section4 .btn{
+    border: 1px solid;
+    border-color:  #FBBBCD;
+    border-radius: 2px;
+    padding: 10px 18px;
+    color: #000000;
+    font-size: 16px;
+     
+ }
+  #section4 .btn:hover{
+    color: #F7F7F7;
+    background-color: #CC3900;
+
+  }
+ #section4 h2{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+
+ }
+
+
+
+
+.sec41{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
 }
+.sec41 img{
+    height: 70%;
+    width: 100%;
+}
+
 .sec41 div{
     display: flex;
     justify-content: space-between;
 }
+.sec41 div article nav{
+    display: flex;
+}
+.sec41 div  article nav li a{
+text-decoration: none;
+list-style: none;
+}
+
+
+.sec42{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+.sec42 img{
+    height: 45%;
+    width: 100%;
+}
 .sec42 div{
      display: flex;
     justify-content: space-between;
+}
+
+
+/* SECTION 5 */
+#section5{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 90px;
 
 }
+.art5{
+    display: flex;
+    justify-content: space-between;
+}
+.art5 h1{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    color: #000000;
+
+}
+.art5 .btn{
+      border: 1px solid;
+    border-color:  #FBBBCD;
+    border-radius: 2px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-family:" Noto Sans";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+     color: #000000;
+}
+.art5 .btn:hover{
+    color: #F7F7F7;
+    background-color: #CC3900;
+}
+#section5 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+#section5 img{
+    height: 70%;
+    width: 100%;
+}
+#section5 h2{
+    font-family: "Gloria Hallelujah",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    vertical-align: middle;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#section5 .p1{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: middle;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+#section5 .p2{
+    font-family:" Noto Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+    margin-bottom: 20px;
+}
+#section5 .btn{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+
+}
+
+
+/* SECTION 6 */
+#section6{
+    max-width: 1903px;
+    margin: auto;
+    background-color: #CC3900;
+}
+#section6 div{
+    width:  800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#section6 div h1{
+    font-family: "Gloria Hallelujah",sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 100px;
+    
+
+}
+#section6 p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#section6 .btn{
+     border: 1px solid;
+    border-color:  #FBBBCD;
+    border-radius: 2px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-family:" Noto Sans";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+     color: #FFFFFF; 
+     width: fit-content;
+     display: block;
+     place-self: center;
+     margin-bottom: 60px;
+    
+}
+
+
+
 
 /* FOOTER  */
 .footer{
