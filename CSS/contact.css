@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
 }
 a{
     list-style: none;
@@ -240,4 +242,45 @@ footer ul li a{
         width: fit-content;
         justify-self: center;
     }
+      footer p{
+    display: none;
+
+   }
     }
+
+
+    /* RESPONSIVE MOBILE */
+
+
+@media screen and (max-width:767px){
+
+      header{
+        justify-content: space-between;
+    }
+    .header nav{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    .icons{
+        display: none;
+    }
+    #section1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #formulaire{
+        justify-content: space-evenly;
+    }
+      footer p{
+    display: none;
+
+   }
+}
+
+
+
+
+
+
